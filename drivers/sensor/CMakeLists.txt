@@ -1,0 +1,1 @@
+add_subdirectory_ifdef(CONFIG_PCA9548 pca9548)

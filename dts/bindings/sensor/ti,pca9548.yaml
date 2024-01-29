@@ -1,0 +1,10 @@
+description: Texas Instruments PCA9548 i2c mux driver sensor
+
+compatible: "ti,pca9548"
+
+include: ["i2c-device.yaml", "sensor-device.yaml"]
+
+properties:
+  reg:
+    required: true
+    description: device address on i2c bus
